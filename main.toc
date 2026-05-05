@@ -1,0 +1,12 @@
+\babel@toc {turkish}{}\relax 
+\beamer@sectionintoc {1}{Proje Tanıtımı}{3}{0}{1}
+\beamer@sectionintoc {2}{Projenin Amacı ve Hedefleri}{6}{0}{2}
+\beamer@sectionintoc {3}{Yenilikçi Yönler ve Teknik Altyapı}{17}{0}{3}
+\beamer@sectionintoc {4}{Rekabet Analizi}{38}{0}{4}
+\beamer@sectionintoc {5}{Uygulama Alanları ve Hedef Kitle}{40}{0}{5}
+\beamer@sectionintoc {6}{Ürün Yapısı ve Ticarileşme}{42}{0}{6}
+\beamer@sectionintoc {7}{Proje İş Planı}{45}{0}{7}
+\beamer@sectionintoc {8}{Proje Bütçesi}{50}{0}{8}
+\beamer@sectionintoc {9}{Risk Yönetimi}{52}{0}{9}
+\beamer@sectionintoc {10}{Beklenen Çıktılar ve Etkiler}{53}{0}{10}
+\beamer@sectionintoc {11}{Sonuç ve Vizyon}{57}{0}{11}
