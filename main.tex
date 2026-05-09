@@ -33,6 +33,55 @@
 \end{tikzpicture}%
 }
 
+% Eklenen süreç görselleri dosya olarak mevcutsa kullanılır; yoksa derleme bozulmaz.
+\newcommand{\processvisual}[3]{%
+\IfFileExists{#1}{%
+\begin{center}
+\includegraphics[width=\paperwidth,height=0.82\paperheight,keepaspectratio]{#1}
+\end{center}
+}{%
+\bglogo
+\begin{block}{#2}
+#3
+\end{block}
+\begin{alertblock}{Görsel dosyası bekleniyor}
+\texttt{\detokenize{#1}} dosyasını \texttt{images} klasörüne eklediğinizde bu slaytta otomatik olarak ilgili görsel kullanılacaktır.
+\end{alertblock}
+}%
+}
+
+\newcommand{\processvisualwithfallback}[4]{%
+\IfFileExists{#1}{%
+\begin{center}
+\includegraphics[width=\paperwidth,height=0.82\paperheight,keepaspectratio]{#1}
+\end{center}
+}{%
+\begin{center}
+\includegraphics[width=\paperwidth,height=0.68\paperheight,keepaspectratio]{#4}
+\end{center}
+\vspace{-0.2cm}
+\begin{alertblock}{Yeni görsel dosyası bekleniyor}
+\small \texttt{\detokenize{#1}} dosyasını \texttt{images} klasörüne eklediğinizde bu slaytta eski diyagram yerine yeni görsel kullanılacaktır.
+\end{alertblock}
+}%
+}
+
+\newcommand{\facilityphoto}[3]{%
+\IfFileExists{#1}{%
+\includegraphics[width=\linewidth,height=#2,keepaspectratio]{#1}
+}{%
+\begin{center}
+\fbox{%
+\begin{minipage}[c][#2][c]{0.92\linewidth}
+\centering
+\textbf{#3}\\[0.2cm]
+\small Fotoğraf dosyası bekleniyor:\\
+\texttt{\detokenize{#1}}
+\end{minipage}}
+\end{center}
+}%
+}
+
 % Başlık bilgileri
 \title[Proje No: 190871]{\textbf{QuatMark-EQCore}: Dijital İçerik Sahteciliğine Karşı Eliptik Kuaterniyon ve Kaotik Kriptografi Tabanlı Dayanıklı Damgalama Çekirdeğinin Geliştirilmesi}
 \subtitle{\includegraphics[height=2.9ex]{images/pngegg.png} TÜBİTAK 1507 -- KOBİ Ar-Ge Başlangıç Destek Programı}
@@ -91,10 +140,83 @@ QuatVision; bilgisayar görüsü, dijital veri güvenliği ve dijital damgalama 
 \textbf{Vizyon:} Dijital içeriklerin güvenliği, kimlik doğrulaması ve izlenebilirliği konusunda ulusal ve uluslararası ölçekte öncü bir teknoloji şirketi olmak.
 \end{frame}
 
+\begin{frame}{Kuruluşun Altyapısının Uygunluğu}
+\bglogo
+\begin{block}{Fiziksel Konum ve Ar-Ge Ortamı}
+QuatVision, \textbf{Sakarya Teknokent} çatısı altında kurulmuş, Ar-Ge ve teknoloji geliştirme ekosistemi içinde konumlanan bir şirkettir. Şirketin proje yürütümü için kullandığı \textbf{45 m$^2$ ofis alanı}; yazılım geliştirme, algoritma tasarımı, test/analiz çalışmaları ve proje koordinasyonu için yeterli çalışma ortamı sunmaktadır.
+\end{block}
+
+\begin{columns}
+\column{0.5\textwidth}
+\textbf{Konum Avantajı}
+\begin{itemize}
+\item Teknokent ekosistemi içinde Ar-Ge odaklı çalışma ortamı
+\item Üniversite-sanayi etkileşimine ve akademik danışmanlık süreçlerine yakınlık
+\item Proje toplantıları, dokümantasyon ve yazılım geliştirme için uygun ofis düzeni
+\end{itemize}
+
+\column{0.5\textwidth}
+\textbf{Proje ile Uyum}
+\begin{itemize}
+\item Proje çıktısı fiziksel üretim değil, yazılım/algoritma çekirdeğidir.
+\item Mevcut SaaS/API altyapısı öz kaynaklarla geliştirilmiş durumdadır.
+\item EQCore geliştirme, test ve entegrasyon süreçleri ofis tabanlı yürütülebilir.
+\end{itemize}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Sakarya Teknokent ve Ofis Altyapısı}
+\bglogo
+\begin{columns}
+\column{0.5\textwidth}
+\begin{block}{Sakarya Teknokent Binası}
+\facilityphoto{images/sakarya_teknokent_bina.png}{4.2cm}{Sakarya Teknokent Binası}
+\end{block}
+
+\column{0.5\textwidth}
+\begin{block}{QuatVision Ofisi}
+\facilityphoto{images/quatvision_ofis.png}{4.2cm}{QuatVision Ofisi}
+\end{block}
+\end{columns}
+
+\vspace{0.2cm}
+\begin{alertblock}{Altyapı Uygunluğu}
+45 m$^2$ ofis alanı; proje personelinin yazılım geliştirme, matematiksel modelleme, deneysel test, raporlama ve mevcut QuatMark SaaS/API altyapısına entegrasyon çalışmalarını yürütmesi için yeterlidir.
+\end{alertblock}
+\end{frame}
+
+\begin{frame}{Mevcut Kurumsal ve Teknik Hazırlık}
+\bglogo
+\begin{columns}
+\column{0.48\textwidth}
+\begin{block}{Mevcut Ürün Altyapısı}
+\begin{itemize}
+\item QuatMark SaaS platformu halihazırda geliştirilmiştir.
+\item RESTful API ve ödeme altyapısı öz kaynaklarla oluşturulmuştur.
+\item Yeni proje, bu ürünün damgalama çekirdeğini yenilemeyi hedefler.
+\end{itemize}
+\end{block}
+
+\column{0.52\textwidth}
+\begin{block}{Yürütme Yetkinliği}
+\begin{itemize}
+\item Bilgisayar görüsü, görüntü işleme ve dijital veri güvenliği yetkinliği
+\item Kriptografi, dijital damgalama ve eliptik kuaterniyon matematiği odağı
+\item Teknokent ortamında Ar-Ge, test, dokümantasyon ve pilot doğrulama süreçlerini sürdürebilecek organizasyon yapısı
+\end{itemize}
+\end{block}
+\end{columns}
+
+\vspace{0.2cm}
+\begin{center}
+\textbf{Sonuç:} Kuruluşun fiziksel altyapısı, mevcut yazılım ürünü ve Ar-Ge yetkinlikleri, QuatMark-EQCore projesinin planlanan iş paketlerini yürütmek için uygundur.
+\end{center}
+\end{frame}
+
 \begin{frame}{Mevcut QuatMark Ürünü ve Yeni Çekirdek İhtiyacı}
 \bglogo
 \begin{block}{Mevcut Durum}
-QuatMark ürünü; SaaS platformu, RESTful API ve ödeme altyapısı bileşenleriyle birlikte şirketimizin \textbf{öz kaynaklarıyla geliştirilmiş} ve \textbf{aktif olarak hizmet vermektedir}.
+QuatMark ürünü; SaaS platformu, RESTful API ve ödeme altyapısı bileşenleriyle birlikte şirketimizin \textbf{öz kaynaklarıyla geliştirilmiştir} .
 \end{block}
 
 \begin{alertblock}{Mevcut Çekirdeğin Dezavantajları}
@@ -122,7 +244,7 @@ Dijital teknolojilerin hızla gelişmesiyle birlikte, internet üzerinden payla�
 
 \begin{figure}[h]
     \centering
-    \includegraphics[scale=0.4]{images/data_hiding.png}
+    \includegraphics[scale=0.35]{images/data_hiding.png}
 \end{figure}
 \end{frame}
 
@@ -146,7 +268,7 @@ Dijital damgalama (watermarking), bir dijital veriye (görüntü, ses, video, me
 
 \begin{figure}[h]
     \centering
-    \includegraphics[scale=0.36]{images/siniflandirma.png}
+    \includegraphics[scale=0.33]{images/siniflandirma.png}
 \end{figure}
 \end{frame}
 
@@ -243,6 +365,11 @@ Hassas bir belge veya askeri bir görsel birden fazla departmanla/kişiyle payla
 \end{itemize}
 \end{frame}
 
+\begin{frame}{Sızıntı Tespiti ve Kaynak İzleme Süreci}
+\processvisual{images/sizinti_tespiti_sureci.png}{Sızıntı Tespiti ve Kaynak İzleme}
+{Alıcıya özel görünmez damga ile kişiselleştirme, güvenli dağıtım, sızan içerikten damga çözümleme ve kaynak raporlama akışı gösterilir.}
+\end{frame}
+
 \begin{frame}{Hizmet 2: İçerik Kimlik Doğrulama (Bütünlük)}
 \bglogo
 \begin{block}{Kimlik Doğrulama}
@@ -254,6 +381,16 @@ Hassas bir belge veya askeri bir görsel birden fazla departmanla/kişiyle payla
 \item \textbf{Doğrulama:} Damga okunabiliyorsa içerik \textbf{orijinaldir} ve değiştirilmemiştir.
 \item Adli bilişim, tıbbi görüntüler ve haber ajansları için hayati önem taşır.
 \end{itemize}
+\end{frame}
+
+\begin{frame}{İçerik Doğrulama ve Bütünlük Kontrol Süreci}
+\processvisual{images/icerik_dogrulama_sureci.png}{İçerik Doğrulama ve Bütünlük Kontrol}
+{Orijinal içeriğe bütünlük damgası gömme, şüpheli içeriği sorgulama, damga varlığı ve değişiklik analizi ile ayrıntılı bütünlük raporu üretme akışı özetlenir.}
+\end{frame}
+
+\begin{frame}{Kimlik Doğrulama ve Sahiplik Teyit Süreci}
+\processvisual{images/kimlik_dogrulama_sureci.png}{Kimlik Doğrulama ve Sahiplik Teyidi}
+{İçeriğe sahiplik bilgisinin görünmez damga olarak işlenmesi, doğrulama talebi, damga okuma, kimlik eşleştirme ve raporlama adımları gösterilir.}
 \end{frame}
 
 \begin{frame}{Hizmet 3: Fikri Mülkiyet Haklarını Koruma}
@@ -268,6 +405,11 @@ Bir fotoğrafçı, dijital sanatçı veya içerik üreticisi, eserlerinin intern
 \item Dijital korsanlığa karşı caydırıcılık sağlar.
 \item Olası telif hakkı davalarında \textbf{güçlü yasal kanıt} niteliği taşır.
 \end{itemize}
+\end{frame}
+
+\begin{frame}{Telif Hakkı Koruma ve Sahiplik Kanıtlama Süreci}
+\processvisual{images/telif_hakki_sureci.png}{Telif Hakkı Koruma ve Sahiplik Kanıtlama}
+{Dijital içeriğe telif damgası gömme, platform taraması, damga eşleştirme, sahiplik doğrulama ve hukuki kanıt raporu üretme süreci açıklanır.}
 \end{frame}
 
 \begin{frame}{Somut ve Ölçülebilir Başarı Ölçütleri}
@@ -411,7 +553,7 @@ Eliptik kuaterniyonlar 4-boyutlu hiperkompleks sayılardır: bir reel ve üç im
 
 \begin{figure}[h]
     \centering
-    \includegraphics[scale=0.22]{images/airplane_el_rep.png}
+    \includegraphics[scale=0.18]{images/airplane_el_rep.png}
 \end{figure}
 \end{frame}
 
@@ -423,7 +565,7 @@ Eliptik kuaterniyonlar 4-boyutlu hiperkompleks sayılardır: bir reel ve üç im
 
 \begin{figure}[h]
     \centering
-    \includegraphics[scale=0.22]{images/hata_yuzeyi.png}
+    \includegraphics[scale=0.18]{images/hata_yuzeyi.png}
 \end{figure}
 \end{frame}
 
@@ -621,20 +763,14 @@ LCG hızlıdır; ancak \textbf{tahmin edilebilirlik} ve \textbf{örüntü/korela
 \end{enumerate}
 \end{frame}
 
-\begin{frame}{Damga Gömme Süreci}
-\bglogo
-\begin{figure}[h]
-    \centering
-    \includegraphics[scale=0.20]{images/GORSEL1.png}
-\end{figure}
+\begin{frame}{Damga Gömme Prosedürü}
+\processvisualwithfallback{images/damga_gomme_proseduru.png}{Damga Gömme Prosedürü}
+{Damga ön işleme, host görüntü işleme, QR ayrışımı, $R_{1,4}$ elemanına gömme ve ters QR inşa adımları tek akışta gösterilir.}{images/GORSEL1.png}
 \end{frame}
 
-\begin{frame}{Damga Çıkarma Süreci}
-\bglogo
-\begin{figure}[h]
-    \centering
-    \includegraphics[scale=0.22]{images/GORSEL2.png}
-\end{figure}
+\begin{frame}{Damga Çıkarma Prosedürü}
+\processvisualwithfallback{images/damga_cikarma_proseduru.png}{Damga Çıkarma Prosedürü}
+{Kör çıkarma yaklaşımıyla damgalı görüntü ve gizli anahtarlar üzerinden QR ayrışımı, bit çıkarma, ters şifreleme ve orijinal host geri kazanımı gösterilir.}{images/GORSEL2.png}
 \end{frame}
 
 \begin{frame}{Performans Kriterleri}
@@ -1221,18 +1357,18 @@ Eliptik kuaterniyon tabanlı, çok katmanlı güvenlik mimarisine sahip, derin �
 \begin{center}
 \Large{\textbf{QuatVision Yazılım Teknoloji San. Tic. A.Ş.}}
 
-\vspace{0.7cm}
+\vspace{0.4cm}
 
 \textbf{Proje Yürütücüsü:}\\
 Doç. Dr. Hidayet Hüda Kösal\\
 Teknoloji Direktörü, Ar-Ge Sorumlusu
 
-\vspace{0.4cm}
+\vspace{0.2cm}
 
 \textbf{İletişim:}\\
 hhkosal@sakarya.edu.tr \hspace{0.5cm}|\hspace{0.5cm} Tel: 0530-9722035
 
-\vspace{0.4cm}
+\vspace{0.2cm}
 
 \textbf{Adres:}\\
 Esentepe Mah. Akademiyolu Sk. No: 10/6 İç Kapı: 138\\
@@ -1249,7 +1385,6 @@ Esentepe 54050 Serdivan / SAKARYA
 \vspace{-1.5cm}
 \begin{center}
 \Huge{\textbf{Teşekkürler}}\\[0.5cm]
-\Large{Sorularınız?}
 \end{center}
 \end{frame}
 
