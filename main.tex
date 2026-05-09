@@ -66,17 +66,18 @@
 }%
 }
 
-\newcommand{\facilityphoto}[3]{%
-\IfFileExists{#1}{%
-\includegraphics[width=\linewidth,height=#2,keepaspectratio]{#1}
+\newcommand{\facilityphoto}[4][]{%
+\IfFileExists{#2}{%
+\centering
+\includegraphics[width=\linewidth,height=#3,keepaspectratio,#1]{#2}
 }{%
 \begin{center}
 \fbox{%
-\begin{minipage}[c][#2][c]{0.92\linewidth}
+\begin{minipage}[c][#3][c]{0.92\linewidth}
 \centering
-\textbf{#3}\\[0.2cm]
+\textbf{#4}\\[0.2cm]
 \small Fotoğraf dosyası bekleniyor:\\
-\texttt{\detokenize{#1}}
+\texttt{\detokenize{#2}}
 \end{minipage}}
 \end{center}
 }%
@@ -169,19 +170,19 @@ QuatVision, \textbf{Sakarya Teknokent} çatısı altında kurulmuş, Ar-Ge ve te
 \bglogo
 \begin{columns}
 \column{0.5\textwidth}
-\begin{block}{Sakarya Teknokent Binası}
-\facilityphoto{images/sakarya_teknokent_bina.png}{4.2cm}{Sakarya Teknokent Binası}
+\begin{block}{\makebox[\linewidth][c]{Sakarya Teknokent Binası}}
+\facilityphoto[trim=0 430 0 436,clip]{images/bina.jpeg}{3.5cm}{Sakarya Teknokent Binası}
 \end{block}
 
 \column{0.5\textwidth}
-\begin{block}{QuatVision Ofisi}
-\facilityphoto{images/quatvision_ofis.png}{4.2cm}{QuatVision Ofisi}
+\begin{block}{\makebox[\linewidth][c]{QuatVision Ofisi}}
+\facilityphoto{images/ofis.jpeg}{3.5cm}{QuatVision Ofisi}
 \end{block}
 \end{columns}
 
 \vspace{0.2cm}
 \begin{alertblock}{Altyapı Uygunluğu}
-45 m$^2$ ofis alanı; proje personelinin yazılım geliştirme, matematiksel modelleme, deneysel test, raporlama ve mevcut QuatMark SaaS/API altyapısına entegrasyon çalışmalarını yürütmesi için yeterlidir.
+\scriptsize 45 m$^2$ ofis alanı; proje personelinin yazılım geliştirme, matematiksel modelleme, deneysel test, raporlama ve mevcut QuatMark SaaS/API altyapısına entegrasyon çalışmalarını yürütmesi için yeterlidir.
 \end{alertblock}
 \end{frame}
 
