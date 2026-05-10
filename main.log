@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.4.16)  10 MAY 2026 17:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.4.16)  10 MAY 2026 18:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -567,9 +567,6 @@ Package babel Info: Importing font and identification data for turkish
 (babel)             from babel-tr.ini. Reported on input line 4330.
  (C:\Users\sau\AppData\Local\Programs\MiKTeX\tex/latex/babel-turkish\turkish.ldf
 Language: turkish 2019/07/05 v1.4 Turkish support from the babel system
-Package babel Info: Making : an active character on input line 163.
-Package babel Info: Making ! an active character on input line 164.
-Package babel Info: Making = an active character on input line 194.
 )) (C:\Users\sau\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen305
@@ -694,35 +691,35 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 ))) (C:\Users\sau\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerthemeMadrid.sty (C:\Users\sau\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolorthemewhale.sty) (C:\Users\sau\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolorthemeorchid.sty) (C:\Users\sau\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerinnerthemerounded.sty) (C:\Users\sau\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerouterthemeinfolines.sty)) (C:\Users\sau\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolorthemeseahorse.sty)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\includegraphics' on input line 92.
+(hyperref)                removing `\includegraphics' on input line 94.
 
 (C:\Users\sau\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count382
 ) (main.aux
 Package babel Info: 'turkish' activates 'turkish' shorthands.
-(babel)             Reported on input line 11.
+(babel)             Reported on input line 8.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -777,64 +774,64 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\sau\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 92.
+Package hyperref Info: Link coloring OFF on input line 94.
  (main.out) (main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 92.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 94.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 92.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 94.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 92.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 92.
+(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 94.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/cmss/b/n on input line 92.
+(Font)                  OT1/cmr/bx/n --> T1/cmss/b/n on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/cmss/b/n on input line 92.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 92.
+(Font)                  OT1/cmr/bx/n --> T1/cmss/b/n on input line 94.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 92.
+(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/cmss/m/n on input line 92.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 92.
+(Font)                  OT1/cmss/bx/n --> T1/cmss/m/n on input line 94.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/cmss/m/it on input line 92.
+(Font)                  OT1/cmr/m/it --> T1/cmss/m/it on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/cmss/m/it on input line 92.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 92.
+(Font)                  OT1/cmr/bx/it --> T1/cmss/m/it on input line 94.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 92.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 92.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 94.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 92.
+(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 94.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 92.
+(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> T1/cmr/b/n on input line 92.
+(Font)                  OT1/cmss/b/n --> T1/cmr/b/n on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/cmss/b/n --> T1/cmss/b/n on input line 92.
+(Font)                  T1/cmss/b/n --> T1/cmss/b/n on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 92.
+(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 92.
+(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/cmtt/m/n --> T1/cmtt/b/n on input line 92.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 92.
+(Font)                  T1/cmtt/m/n --> T1/cmtt/b/n on input line 94.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 94.
 LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
-(Font)              `pureletters' in the math version `normal' on input line 92.
+(Font)              `pureletters' in the math version `normal' on input line 94.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  T1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 92.
+(Font)                  T1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 94.
 LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
-(Font)              `pureletters' in the math version `bold' on input line 92.
+(Font)              `pureletters' in the math version `bold' on input line 94.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 92.
+(Font)                  T1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 94.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on input line 92.
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on input line 94.
  (C:\Users\sau\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (C:\Users\sau\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-bibliography-dictionary-English.dict
@@ -853,7 +850,7 @@ Dictionary: translator-theorem-dictionary, Language: English
 <images/pngegg.png, id=58, 320.397pt x 427.3566pt>
 File: images/pngegg.png Graphic file (type png)
 <use images/pngegg.png>
-Package pdftex.def Info: images/pngegg.png  used on input line 97.
+Package pdftex.def Info: images/pngegg.png  used on input line 99.
 (pdftex.def)             Requested size: 10.57948pt x 14.11334pt.
  [1
 
@@ -861,24 +858,24 @@ Package pdftex.def Info: images/pngegg.png  used on input line 97.
 <images/logo.png, id=110, 1927.2pt x 1204.5pt>
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 103.
+Package pdftex.def Info: images/logo.png  used on input line 105.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
  (main.toc) [2
 
  <./images/logo.png>]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 125.
+Package pdftex.def Info: images/logo.png  used on input line 127.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 125.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 127.
  (C:\Users\sau\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 125.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 127.
  (C:\Users\sau\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 125.
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 127.
  (C:\Users\sau\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mathkerncmss.
 ) [3
@@ -886,7 +883,7 @@ File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mat
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 142.
+Package pdftex.def Info: images/logo.png  used on input line 144.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
  [4
 
@@ -900,599 +897,576 @@ Package pdftex.def Info: images/logo.png  used on input line 161.
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 181.
+Package pdftex.def Info: images/logo.png  used on input line 178.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
 <images/bina.jpeg, id=286, 1084.05pt x 1682.285pt>
 File: images/bina.jpeg Graphic file (type jpg)
 <use images/bina.jpeg>
-Package pdftex.def Info: images/bina.jpeg  used on input line 181.
-(pdftex.def)             Requested size: 132.77661pt x 99.5822pt.
+Package pdftex.def Info: images/bina.jpeg  used on input line 178.
+(pdftex.def)             Requested size: 170.70569pt x 128.02895pt.
 <images/ofis.jpeg, id=300, 2039.62pt x 1529.715pt>
 File: images/ofis.jpeg Graphic file (type jpg)
 <use images/ofis.jpeg>
-Package pdftex.def Info: images/ofis.jpeg  used on input line 181.
-(pdftex.def)             Requested size: 132.76668pt x 99.57501pt.
+Package pdftex.def Info: images/ofis.jpeg  used on input line 178.
+(pdftex.def)             Requested size: 170.70447pt x 128.02835pt.
  [6
 
  <./images/ofis.jpeg> <./images/bina.jpeg>]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 209.
+Package pdftex.def Info: images/logo.png  used on input line 206.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
  [7
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 227.
+Package pdftex.def Info: images/logo.png  used on input line 224.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
  [8
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 244.
+Package pdftex.def Info: images/logo.png  used on input line 241.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
-<images/data_hiding.png, id=472, 603.25375pt x 261.97874pt>
+<images/data_hiding.png, id=460, 603.25375pt x 261.97874pt>
 File: images/data_hiding.png Graphic file (type png)
 <use images/data_hiding.png>
-Package pdftex.def Info: images/data_hiding.png  used on input line 244.
+Package pdftex.def Info: images/data_hiding.png  used on input line 241.
 (pdftex.def)             Requested size: 211.14197pt x 91.69392pt.
  [9
 
  <./images/data_hiding.png>]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 256.
+Package pdftex.def Info: images/logo.png  used on input line 265.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
- [10
-
-]
-File: images/logo.png Graphic file (type png)
-<use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 268.
-(pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
-<images/siniflandirma.png, id=562, 976.64874pt x 430.60875pt>
+<images/siniflandirma.png, id=502, 976.64874pt x 430.60875pt>
 File: images/siniflandirma.png Graphic file (type png)
 <use images/siniflandirma.png>
-Package pdftex.def Info: images/siniflandirma.png  used on input line 268.
+Package pdftex.def Info: images/siniflandirma.png  used on input line 265.
 (pdftex.def)             Requested size: 322.29507pt x 142.10132pt.
 
-Overfull \vbox (8.38043pt too high) detected at line 268
+Overfull \vbox (8.38043pt too high) detected at line 265
  []
 
-[11
+[10
 
  <./images/siniflandirma.png>]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 283.
+Package pdftex.def Info: images/logo.png  used on input line 280.
+(pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
+ [11
+
+]
+File: images/logo.png Graphic file (type png)
+<use images/logo.png>
+Package pdftex.def Info: images/logo.png  used on input line 298.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
  [12
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 314.
+Package pdftex.def Info: images/logo.png  used on input line 323.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
  [13
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 326.
+Package pdftex.def Info: images/logo.png  used on input line 343.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
- [14
+
+Overfull \vbox (1.80197pt too high) detected at line 343
+ []
+
+[14
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 347.
+Package pdftex.def Info: images/logo.png  used on input line 383.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
  [15
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 361.
+Package pdftex.def Info: images/logo.png  used on input line 395.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
  [16
 
 ]
-<images/sizinti_tespiti_sureci.png, id=799, 2007.5pt x 1710.39pt>
-File: images/sizinti_tespiti_sureci.png Graphic file (type png)
-<use images/sizinti_tespiti_sureci.png>
-Package pdftex.def Info: images/sizinti_tespiti_sureci.png  used on input line 366.
-(pdftex.def)             Requested size: 246.43399pt x 209.96176pt.
-
-Overfull \vbox (6.26965pt too high) detected at line 366
- []
-
-[17
-
- <./images/sizinti_tespiti_sureci.png>]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 379.
+Package pdftex.def Info: images/logo.png  used on input line 416.
+(pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
+ [17
+
+]
+File: images/logo.png Graphic file (type png)
+<use images/logo.png>
+Package pdftex.def Info: images/logo.png  used on input line 430.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
  [18
 
 ]
-<images/icerik_dogrulama_sureci.png, id=867, 2007.5pt x 1971.365pt>
-File: images/icerik_dogrulama_sureci.png Graphic file (type png)
-<use images/icerik_dogrulama_sureci.png>
-Package pdftex.def Info: images/icerik_dogrulama_sureci.png  used on input line 384.
-(pdftex.def)             Requested size: 213.81096pt x 209.96237pt.
+<images/sizinti_tespiti_sureci.png, id=883, 2007.5pt x 1710.39pt>
+File: images/sizinti_tespiti_sureci.png Graphic file (type png)
+<use images/sizinti_tespiti_sureci.png>
+Package pdftex.def Info: images/sizinti_tespiti_sureci.png  used on input line 435.
+(pdftex.def)             Requested size: 246.43399pt x 209.96176pt.
 
-Overfull \vbox (6.27026pt too high) detected at line 384
+Overfull \vbox (6.26965pt too high) detected at line 435
  []
 
 [19
 
- <./images/icerik_dogrulama_sureci.png>]
-<images/kimlik_dogrulama_sureci.png, id=897, 2007.5pt x 1794.705pt>
-File: images/kimlik_dogrulama_sureci.png Graphic file (type png)
-<use images/kimlik_dogrulama_sureci.png>
-Package pdftex.def Info: images/kimlik_dogrulama_sureci.png  used on input line 389.
-(pdftex.def)             Requested size: 234.85512pt x 209.96046pt.
-
-Overfull \vbox (6.26836pt too high) detected at line 389
- []
-
-[20
-
- <./images/kimlik_dogrulama_sureci.png>]
-File: images/logo.png Graphic file (type png)
-<use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 403.
-(pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
- [21
-
-]
-<images/telif_hakki_sureci.png, id=962, 2007.5pt x 1686.3pt>
-File: images/telif_hakki_sureci.png Graphic file (type png)
-<use images/telif_hakki_sureci.png>
-Package pdftex.def Info: images/telif_hakki_sureci.png  used on input line 408.
-(pdftex.def)             Requested size: 249.95667pt x 209.9636pt.
-
-Overfull \vbox (6.27148pt too high) detected at line 408
- []
-
-[22
-
- <./images/telif_hakki_sureci.png>]
-File: images/logo.png Graphic file (type png)
-<use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 429.
-(pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
- [23
-
-]
+ <./images/sizinti_tespiti_sureci.png>]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
 Package pdftex.def Info: images/logo.png  used on input line 448.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
- [24
+ [20
 
 ]
+<images/icerik_dogrulama_sureci.png, id=952, 2007.5pt x 1971.365pt>
+File: images/icerik_dogrulama_sureci.png Graphic file (type png)
+<use images/icerik_dogrulama_sureci.png>
+Package pdftex.def Info: images/icerik_dogrulama_sureci.png  used on input line 453.
+(pdftex.def)             Requested size: 213.81096pt x 209.96237pt.
+
+Overfull \vbox (6.27026pt too high) detected at line 453
+ []
+
+[21
+
+ <./images/icerik_dogrulama_sureci.png>]
+<images/kimlik_dogrulama_sureci.png, id=981, 2007.5pt x 1794.705pt>
+File: images/kimlik_dogrulama_sureci.png Graphic file (type png)
+<use images/kimlik_dogrulama_sureci.png>
+Package pdftex.def Info: images/kimlik_dogrulama_sureci.png  used on input line 458.
+(pdftex.def)             Requested size: 234.85512pt x 209.96046pt.
+
+Overfull \vbox (6.26836pt too high) detected at line 458
+ []
+
+[22
+
+ <./images/kimlik_dogrulama_sureci.png>]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 461.
+Package pdftex.def Info: images/logo.png  used on input line 472.
+(pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
+ [23
+
+]
+<images/telif_hakki_sureci.png, id=1046, 2007.5pt x 1686.3pt>
+File: images/telif_hakki_sureci.png Graphic file (type png)
+<use images/telif_hakki_sureci.png>
+Package pdftex.def Info: images/telif_hakki_sureci.png  used on input line 477.
+(pdftex.def)             Requested size: 249.95667pt x 209.9636pt.
+
+Overfull \vbox (6.27148pt too high) detected at line 477
+ []
+
+[24
+
+ <./images/telif_hakki_sureci.png>]
+File: images/logo.png Graphic file (type png)
+<use images/logo.png>
+Package pdftex.def Info: images/logo.png  used on input line 498.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
  [25
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 477.
+Package pdftex.def Info: images/logo.png  used on input line 565.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
  [26
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 496.
+Package pdftex.def Info: images/logo.png  used on input line 602.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
  [27
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 517.
-(pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
-
-Overfull \vbox (12.38895pt too high) detected at line 517
- []
-
-[28
-
-]
-File: images/logo.png Graphic file (type png)
-<use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 533.
-(pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
- [29
-
-]
-File: images/logo.png Graphic file (type png)
-<use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 553.
+Package pdftex.def Info: images/logo.png  used on input line 622.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/m/n' instead on input line 553.
+(Font)              using `T1/cmss/m/n' instead on input line 622.
 
-<images/airplane_el_rep.png, id=1329, 1325.95375pt x 320.19624pt>
+<images/airplane_el_rep.png, id=1207, 1325.95375pt x 320.19624pt>
 File: images/airplane_el_rep.png Graphic file (type png)
 <use images/airplane_el_rep.png>
-Package pdftex.def Info: images/airplane_el_rep.png  used on input line 553.
+Package pdftex.def Info: images/airplane_el_rep.png  used on input line 622.
 (pdftex.def)             Requested size: 238.66138pt x 57.63283pt.
 
-Overfull \vbox (6.13466pt too high) detected at line 553
+Overfull \vbox (6.13466pt too high) detected at line 622
  []
 
-[30
+[28
 
  <./images/airplane_el_rep.png>]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 565.
+Package pdftex.def Info: images/logo.png  used on input line 634.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
-<images/hata_yuzeyi.png, id=1375, 910.90312pt x 444.15938pt>
+<images/hata_yuzeyi.png, id=1253, 910.90312pt x 444.15938pt>
 File: images/hata_yuzeyi.png Graphic file (type png)
 <use images/hata_yuzeyi.png>
-Package pdftex.def Info: images/hata_yuzeyi.png  used on input line 565.
+Package pdftex.def Info: images/hata_yuzeyi.png  used on input line 634.
 (pdftex.def)             Requested size: 163.95547pt x 79.94524pt.
 
-Overfull \vbox (2.93274pt too high) detected at line 565
+Overfull \vbox (2.93274pt too high) detected at line 634
  []
 
-[31
+[29
 
  <./images/hata_yuzeyi.png>]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 588.
+Package pdftex.def Info: images/logo.png  used on input line 657.
+(pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
+ [30
+
+]
+File: images/logo.png Graphic file (type png)
+<use images/logo.png>
+Package pdftex.def Info: images/logo.png  used on input line 674.
+(pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
+ [31
+
+]
+File: images/logo.png Graphic file (type png)
+<use images/logo.png>
+Package pdftex.def Info: images/logo.png  used on input line 696.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
  [32
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 605.
-(pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
- [33
-
-]
-File: images/logo.png Graphic file (type png)
-<use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 627.
-(pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
- [34
-
-]
-File: images/logo.png Graphic file (type png)
-<use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 646.
+Package pdftex.def Info: images/logo.png  used on input line 715.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
 
-Overfull \vbox (12.20984pt too high) detected at line 646
+Overfull \vbox (12.20984pt too high) detected at line 715
  []
 
-[35
-
-]
-File: images/logo.png Graphic file (type png)
-<use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 663.
-(pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
- [36
-
-]
-File: images/logo.png Graphic file (type png)
-<use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 681.
-(pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
- [37
-
-]
-File: images/logo.png Graphic file (type png)
-<use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 697.
-(pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
- [38
-
-]
-File: images/logo.png Graphic file (type png)
-<use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 716.
-(pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
- [39
+[33
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
 Package pdftex.def Info: images/logo.png  used on input line 732.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
- [40
+ [34
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 759.
+Package pdftex.def Info: images/logo.png  used on input line 750.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
- [41
+ [35
 
 ]
-<images/damga_gomme_proseduru.png, id=1872, 2047.65pt x 1784.6675pt>
+File: images/logo.png Graphic file (type png)
+<use images/logo.png>
+Package pdftex.def Info: images/logo.png  used on input line 766.
+(pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
+ [36
+
+]
+File: images/logo.png Graphic file (type png)
+<use images/logo.png>
+Package pdftex.def Info: images/logo.png  used on input line 785.
+(pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
+ [37
+
+]
+File: images/logo.png Graphic file (type png)
+<use images/logo.png>
+Package pdftex.def Info: images/logo.png  used on input line 801.
+(pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
+ [38
+
+]
+File: images/logo.png Graphic file (type png)
+<use images/logo.png>
+Package pdftex.def Info: images/logo.png  used on input line 828.
+(pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
+ [39
+
+]
+<images/damga_gomme_proseduru.png, id=1750, 2047.65pt x 1784.6675pt>
 File: images/damga_gomme_proseduru.png Graphic file (type png)
 <use images/damga_gomme_proseduru.png>
-Package pdftex.def Info: images/damga_gomme_proseduru.png  used on input line 764.
+Package pdftex.def Info: images/damga_gomme_proseduru.png  used on input line 833.
 (pdftex.def)             Requested size: 240.89574pt x 209.95715pt.
 
-Overfull \vbox (6.26505pt too high) detected at line 764
+Overfull \vbox (6.26505pt too high) detected at line 833
  []
 
-[42
+[40
 
  <./images/damga_gomme_proseduru.png>]
-<images/damga_cikarma_proseduru.png, id=1901, 2047.65pt x 2398.9625pt>
+<images/damga_cikarma_proseduru.png, id=1779, 2047.65pt x 2398.9625pt>
 File: images/damga_cikarma_proseduru.png Graphic file (type png)
 <use images/damga_cikarma_proseduru.png>
-Package pdftex.def Info: images/damga_cikarma_proseduru.png  used on input line 769.
+Package pdftex.def Info: images/damga_cikarma_proseduru.png  used on input line 838.
 (pdftex.def)             Requested size: 179.21892pt x 209.96727pt.
 
-Overfull \vbox (6.27516pt too high) detected at line 769
+Overfull \vbox (6.27516pt too high) detected at line 838
  []
 
-[43
+[41
 
  <./images/damga_cikarma_proseduru.png>]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 793.
+Package pdftex.def Info: images/logo.png  used on input line 862.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
- [44
+ [42
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 822.
+Package pdftex.def Info: images/logo.png  used on input line 891.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 822--822
+Underfull \hbox (badness 10000) in paragraph at lines 891--891
 []\T1/cmss/bx/n/8 QuatMark-
  []
 
 
-Overfull \hbox (23.68832pt too wide) in paragraph at lines 822--822
+Overfull \hbox (23.68832pt too wide) in paragraph at lines 891--891
 []\T1/cmss/bx/n/8 Verimatrix/Irdeto| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 822--822
+Underfull \hbox (badness 10000) in paragraph at lines 891--891
 []\T1/cmss/bx/n/8 Google
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 822--822
+Underfull \hbox (badness 10000) in paragraph at lines 891--891
 []\T1/cmss/b/n/8 Spread-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 822--822
+Underfull \hbox (badness 10000) in paragraph at lines 891--891
 []\T1/cmss/b/n/8 Reel (fre-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 822--822
+Underfull \hbox (badness 10000) in paragraph at lines 891--891
 []\T1/cmss/b/n/8 NN gizli
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 822--822
+Underfull \hbox (badness 10000) in paragraph at lines 891--891
 []\T1/cmss/b/n/8 Oturum
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 822--822
+Underfull \hbox (badness 10000) in paragraph at lines 891--891
 []\T1/cmss/b/n/8 Kaotik+SHA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 822--822
+Underfull \hbox (badness 10000) in paragraph at lines 891--891
 []\T1/cmss/b/n/8 Oturum
  []
 
-[45
+[43
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 845.
+Package pdftex.def Info: images/logo.png  used on input line 914.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
 
-Underfull \hbox (badness 2269) in paragraph at lines 845--845
+Underfull \hbox (badness 2269) in paragraph at lines 914--914
 []\T1/cmss/b/n/8 Damga ÷n-ù≥leme: Ar-nold Ka-r^^Y≥-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 845--845
+Underfull \hbox (badness 10000) in paragraph at lines 914--914
 []\T1/cmss/bx/n/8 4 kat-man \T1/cmss/b/n/8 ($\OT1/mathkerncmss/m/sl/8 p$\T1/cmss/b/n/8 +SHA-
  []
 
-[46
+[44
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 880.
+Package pdftex.def Info: images/logo.png  used on input line 949.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
- [47
+ [45
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 904.
+Package pdftex.def Info: images/logo.png  used on input line 973.
+(pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
+ [46
+
+] [47
+
+]
+File: images/logo.png Graphic file (type png)
+<use images/logo.png>
+Package pdftex.def Info: images/logo.png  used on input line 1031.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
  [48
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 942.
+Package pdftex.def Info: images/logo.png  used on input line 1059.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
-
-Overfull \vbox (9.21541pt too high) detected at line 942
- []
-
-[49
+ [49
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 963.
+Package pdftex.def Info: images/logo.png  used on input line 1081.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
  [50
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 990.
+Package pdftex.def Info: images/logo.png  used on input line 1102.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
  [51
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 1012.
+Package pdftex.def Info: images/logo.png  used on input line 1124.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
  [52
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 1033.
+Package pdftex.def Info: images/logo.png  used on input line 1145.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
  [53
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 1055.
+Package pdftex.def Info: images/logo.png  used on input line 1189.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
  [54
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 1076.
+Package pdftex.def Info: images/logo.png  used on input line 1219.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
  [55
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 1120.
+Package pdftex.def Info: images/logo.png  used on input line 1247.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
  [56
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 1150.
+Package pdftex.def Info: images/logo.png  used on input line 1273.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
- [57
+
+Underfull \hbox (badness 1540) in paragraph at lines 1273--1273
+[]\T1/cmss/b/n/8 Teorinin per-for-mans he-def-le-
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 1273--1273
+[]$\OMS/cmsy/m/n/8 f\OT1/mathkerncmss/m/sl/8 e[]\OML/cmm/m/it/8 ; \OT1/mathkerncmss/m/sl/8 e[]\OMS/cmsy/m/n/8 g$ \T1/cmss/b/n/8 idem-po-tent baz^^Y kul-la-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1273--1273
+[]\T1/cmss/b/n/8 Reed-Solomon hata d¸-zeltme
+ []
+
+[57
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 1178.
+Package pdftex.def Info: images/logo.png  used on input line 1302.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
  [58
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 1204.
+Package pdftex.def Info: images/logo.png  used on input line 1326.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
-
-Underfull \hbox (badness 1540) in paragraph at lines 1204--1204
-[]\T1/cmss/b/n/8 Teorinin per-for-mans he-def-le-
- []
-
-
-Underfull \hbox (badness 1048) in paragraph at lines 1204--1204
-[]$\OMS/cmsy/m/n/8 f\OT1/mathkerncmss/m/sl/8 e[]\OML/cmm/m/it/8 ; \OT1/mathkerncmss/m/sl/8 e[]\OMS/cmsy/m/n/8 g$ \T1/cmss/b/n/8 idem-po-tent baz^^Y kul-la-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1204--1204
-[]\T1/cmss/b/n/8 Reed-Solomon hata d¸-zeltme
- []
-
-[59
+ [59
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 1233.
+Package pdftex.def Info: images/logo.png  used on input line 1343.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
  [60
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 1257.
+Package pdftex.def Info: images/logo.png  used on input line 1364.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
  [61
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 1274.
+Package pdftex.def Info: images/logo.png  used on input line 1391.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
  [62
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 1295.
+Package pdftex.def Info: images/logo.png  used on input line 1417.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
  [63
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 1322.
-(pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
- [64
-
-]
-File: images/logo.png Graphic file (type png)
-<use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 1348.
-(pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
- [65
-
-]
-File: images/logo.png Graphic file (type png)
-<use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 1376.
+Package pdftex.def Info: images/logo.png  used on input line 1445.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
 
-Overfull \vbox (19.55005pt too high) detected at line 1376
+Overfull \vbox (19.55005pt too high) detected at line 1445
  []
 
-[66
+[64
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 1384.
+Package pdftex.def Info: images/logo.png  used on input line 1453.
 (pdftex.def)             Requested size: 364.19664pt x 227.60759pt.
- [67
+ [65
 
 ]
 \tf@nav=\write6
@@ -1517,17 +1491,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 5D144337529717EE3BD5D8C65FA15105;1776.
  ) 
 Here is how much of TeX's memory you used:
- 29074 strings out of 467691
- 580494 string characters out of 5415955
- 962943 words of memory out of 5000000
- 57406 multiletter control sequences out of 15000+600000
+ 28977 strings out of 467691
+ 578752 string characters out of 5415955
+ 956010 words of memory out of 5000000
+ 57313 multiletter control sequences out of 15000+600000
  656508 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,15n,123p,704b,935s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\sau\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx2488.pk> <C:\Users\sau\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsi1000.pk> <C:\Users\sau\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk> <C:\Users\sau\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx0800.pk> <C:\Users\sau\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss1000.pk> <C:\Users\sau\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\sau\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsi1095.pk> <C:\Users\sau\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1000.pk> <C:\Users\sau\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1000.pk> <C:\Users\sau\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1200.pk> <C:\Users\sau\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0800.pk> <C:\Users\sau\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0600.pk> <C:\Users\sau\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx0600.pk> <C:\Users\sau\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1095.pk> <C:\Users\sau\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1095.pk> <C:\Users\sau\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk> <C:\Users\sau\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1440.pk><C:/Users/sau/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/sau/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/sau/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/sau/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/sau/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/sau/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/sau/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Users/sau/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/sau/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/sau/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (67 pages, 5581330 bytes).
+ 128i,15n,123p,704b,933s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\sau\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx2488.pk> <C:\Users\sau\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsi1000.pk> <C:\Users\sau\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk> <C:\Users\sau\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss1000.pk> <C:\Users\sau\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\sau\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsi1095.pk> <C:\Users\sau\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx0800.pk> <C:\Users\sau\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1000.pk> <C:\Users\sau\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1000.pk> <C:\Users\sau\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1200.pk> <C:\Users\sau\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0800.pk> <C:\Users\sau\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0600.pk> <C:\Users\sau\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx0600.pk> <C:\Users\sau\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1095.pk> <C:\Users\sau\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1095.pk> <C:\Users\sau\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk> <C:\Users\sau\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1440.pk><C:/Users/sau/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/sau/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/sau/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/sau/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/sau/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/sau/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/sau/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Users/sau/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/sau/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/sau/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (65 pages, 5560954 bytes).
 PDF statistics:
- 3665 PDF objects out of 4296 (max. 8388607)
- 146 named destinations out of 1000 (max. 500000)
- 2505 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3569 PDF objects out of 3580 (max. 8388607)
+ 142 named destinations out of 1000 (max. 500000)
+ 2283 words of extra memory for PDF output out of 10000 (max. 10000000)
 
