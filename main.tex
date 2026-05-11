@@ -1,24 +1,21 @@
 \documentclass[aspectratio=169,xcolor={dvipsnames}]{beamer}
 \usepackage[utf8]{inputenc}
-\usepackage{graphicx}
+\usepackage[T1]{fontenc}
 \usepackage[turkish,shorthands=off]{babel}
+\usepackage{lmodern}
+\usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{booktabs}
-\usepackage{tikz}
-\usepackage{hyperref}
 \usepackage{textcomp} % Derece işareti gibi semboller için eklendi
-\usepackage{amsmath}
 \usepackage{kvsetkeys}
 \let\setkeys\kvsetkeys
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage[turkish,shorthands=off]{babel}
 \usepackage{rotating}
-\usepackage{listings}
 \usepackage{xcolor}
 \usepackage{tikz}
+\usepackage{listings}
 \usepackage{transparent}
+\usepackage{hyperref}
 \shorthandoff{=!:}
 \AtBeginDocument{\shorthandoff{=!:}}
 % Tema seçimi
@@ -87,7 +84,7 @@
 
 % Başlık bilgileri
 \title[Proje No: 190871]{\textbf{QuatMark-EQCore}: Dijital İçerik Sahteciliğine Karşı Eliptik Kuaterniyon ve Kaotik Kriptografi Tabanlı Dayanıklı Damgalama Çekirdeğinin Geliştirilmesi}
-\subtitle{\includegraphics[height=2.9ex]{images/pngegg.png} TÜBİTAK 1507 -- KOBİ Ar-Ge Başlangıç Destek Programı}
+\subtitle{\texorpdfstring{\includegraphics[height=2.9ex]{images/pngegg.png} }{}TÜBİTAK 1507 -- KOBİ Ar-Ge Başlangıç Destek Programı}
 \author{\textcolor{Turquoise}{\textbf{QuatVision Yazılım Teknoloji San. Tic. A.Ş.}}}
 %\institute{Proje No: 190871 / Başvuru No: 7260583}
 
@@ -134,16 +131,16 @@ QuatVision; bilgisayar görüsü, dijital veri güvenliği ve dijital damgalama 
 
 \textbf{Öz Yetkinlikler:}
 \begin{itemize}
-\item Yüksek matematik (eliptik kuaterniyon cebiri, matris teorisi)
+\item Yüksek matematik 
 \item Görüntü işleme ve derin öğrenme algoritmaları
-\item Kriptografi ve dijital damgalama teknolojileri
+\item Veri güvenliği ve dijital damgalama teknolojileri
 \item Yapay zekâ tabanlı görsel denetim sistemleri
 \end{itemize}
 
 \textbf{Vizyon:} Dijital içeriklerin güvenliği, kimlik doğrulaması ve izlenebilirliği konusunda ulusal ve uluslararası ölçekte öncü bir teknoloji şirketi olmak.
 \end{frame}
 
-\begin{frame}{Kuruluşun Altyapısının Uygunluğu}
+\begin{frame}{Kuruluş Altyapısı}
 \bglogo
 \begin{block}{Fiziksel Konum ve Ar-Ge Ortamı}
 QuatVision, \textbf{Sakarya Teknokent} çatısı altında kurulmuş, Ar-Ge ve teknoloji geliştirme ekosistemi içinde konumlanan bir şirkettir. Şirketin proje yürütümü için kullandığı \textbf{45 m$^2$ ofis alanı}; yazılım geliştirme, algoritma tasarımı, test/analiz çalışmaları ve proje koordinasyonu için yeterli çalışma ortamı sunmaktadır.
@@ -179,30 +176,17 @@ QuatVision, \textbf{Sakarya Teknokent} çatısı altında kurulmuş, Ar-Ge ve te
 
 \begin{frame}{Mevcut Kurumsal ve Teknik Hazırlık}
 \bglogo
-\begin{columns}
-\column{0.48\textwidth}
 \begin{block}{Mevcut Ürün Altyapısı}
 \begin{itemize}
 \item QuatMark SaaS platformu halihazırda geliştirilmiştir.
 \item RESTful API ve ödeme altyapısı öz kaynaklarla oluşturulmuştur.
+\item Mevcut QuatMark ürünümüz, QR ayrışımı tabanlı kör renkli görüntü damgalama çekirdeği ile \textcolor{MidnightBlue}{\textbf{telif hakkı koruması}}, \textcolor{MidnightBlue}{\textbf{kimlik doğrulama}}, \textcolor{MidnightBlue}{\textbf{sızıntı önleme}} ve \textcolor{MidnightBlue}{\textbf{yayın izleme}} hizmetlerini yerine getirmektedir.
 \item Yeni proje, bu ürünün damgalama çekirdeğini yenilemeyi hedefler.
 \end{itemize}
 \end{block}
 
-\column{0.52\textwidth}
-\begin{block}{Yürütme Yetkinliği}
-\begin{itemize}
-\item Bilgisayar görüsü, görüntü işleme ve dijital veri güvenliği yetkinliği
-\item Kriptografi, dijital damgalama ve eliptik kuaterniyon matematiği odağı
-\item Teknokent ortamında Ar-Ge, test, dokümantasyon ve pilot doğrulama süreçlerini sürdürebilecek organizasyon yapısı
-\end{itemize}
-\end{block}
-\end{columns}
-
-\vspace{0.2cm}
-\begin{center}
-\textbf{Sonuç:} Kuruluşun fiziksel altyapısı, mevcut yazılım ürünü ve Ar-Ge yetkinlikleri, QuatMark-EQCore projesinin planlanan iş paketlerini yürütmek için uygundur.
-\end{center}
+\vfill
+{\scriptsize \textbf{Referans:} Q. Su, Y. Niu, G. Wang, S. Jia ve J. Yue, ``Color image blind watermarking scheme based on QR decomposition'', \textit{Signal Processing}, 94 (2014), 219--235.}
 \end{frame}
 
 \begin{frame}{Mevcut QuatMark Ürünü ve Yeni Çekirdek İhtiyacı}
@@ -215,8 +199,8 @@ QuatMark ürünü; SaaS platformu, RESTful API ve ödeme altyapısı bileşenler
 \begin{itemize}
 \item Renk korelasyonu kaybı (RGB kanalları ayrı işleniyor)
 \item Damga yerleştirme asenkronizasyonu
-\item Tek katmanlı güvenlik yapısı
-\item Derin öğrenme tabanlı saldırılara karşı sınırlı dayanıklılık
+\item İki katmanlı güvenlik yapısı(MD5+Arnold)
+\item Geometrik ve Derin öğrenme tabanlı saldırılara karşı sınırlı dayanıklılık
 \end{itemize}
 \end{alertblock}
 
@@ -594,7 +578,7 @@ gibi dezavantajlar ortaya çıkmaktadır.
 \textbf{Üç Eksende Özgünlük:}
 \begin{enumerate}
 \item \textbf{Akademik:} Householder dönüşümü ve QR ayrışımı eliptik kuaterniyon uzayında \textit{literatürde ilk kez} formüle edilecek.
-\item \textbf{Güvenlik:} Arnold karıştırma + kaotik kriptografi + \textbf{SHA-2} tabanlı pseudo-rastgele konum seçimi $\rightarrow$ \textbf{çok katmanlı} mimari (rakiplerde kamuya açık DL savunması yok).
+\item \textbf{Güvenlik:} Arnold karıştırma + kaotik kriptografi + p-hiperparametresi + \textbf{SHA-2} tabanlı pseudo-rastgele konum seçimi $\rightarrow$ \textbf{çok katmanlı} mimari.
 \item \textbf{Performans:} Değişmeli cebir yapısı $\rightarrow$ daha düşük algoritmik karmaşıklık, uç nokta cihazlarda çalışabilme potansiyeli.
 \end{enumerate}
 
@@ -664,7 +648,7 @@ Arnold'un Dönüşümü, birim kare (genellikle bir görüntü) üzerinde uygula
 \end{block}
 
 \begin{block}{Matematiksel Formül ($M \times N$ Görüntü için)}
-$N \times N$ boyutlarındaki bir görüntüde yer alan $(x, y)$ koordinatındaki bir pikselin, bir sonraki iterasyondaki yeni $(x', y')$ konumu:
+$M \times N$ boyutlarındaki bir görüntüde yer alan $(x, y)$ koordinatındaki bir pikselin, bir sonraki iterasyondaki yeni $(x', y')$ konumu:
 $$
 \begin{pmatrix} x' \\ y' \end{pmatrix} =
 \begin{pmatrix} 1 & 1 \\ 1 & 2 \end{pmatrix}
@@ -864,54 +848,54 @@ LCG hızlıdır; ancak \textbf{tahmin edilebilirlik} ve \textbf{örüntü/korela
 % =====================================================================
 % Bölüm 4: Rekabet Analizi
 % =====================================================================
-\section{Rekabet Analizi}
+% \section{Rekabet Analizi}
 
-\begin{frame}{Rakip Karşılaştırması -- 6 Rakip}
-\bglogo
-\scriptsize
-\begin{table}
-\centering
-\begin{tabular}{p{2.4cm}p{2.0cm}p{1.6cm}p{1.6cm}p{1.5cm}p{1.5cm}p{1.5cm}}
-\toprule
-\textbf{Kriter} & \textbf{QuatMark-EQCore} & \textbf{Digimarc} & \textbf{IMATAG} & \textbf{Verimatrix/Irdeto} & \textbf{MarkAny} & \textbf{Google SynthID} \\
-\midrule
-Gömme Dön. & EQ QR Ayrışımı & DCT/DWT & SVD & Spread-Spectrum & DCT/DWT & NN Enjeksiyon \\
-Temsil Uzayı & 4-D EQ Matris & Reel (frekans) & Reel (sing.) & Reel & Reel/karm. & NN gizli uzay \\
-Renk Kanalı & \textbf{Bütünleşik} & Ayrıştırmalı & Ayrıştırmalı & Ayrıştırmalı & Ayrıştırmalı & Sınırlı \\
-Blok Seçimi & SHA-2 + kaotik & Statik & Kısmen adp. & Oturum anh. & Statik & Öğrenilmiş \\
-Şifreleme & Kaotik+SHA-2+Arnold & AES & AES & Oturum krip. & DRM anh. & Kapalı \\
-Kör Damgalama & \textbf{Evet} & Evet & Evet & Evet & Kısmi & Hayır \\
-DL Saldırı Sav. & \textbf{Var} & Yok & Yok & Yok & Yok & Kapalı \\
-Yerli/Milli & \textbf{Evet} & Hayır & Hayır & Hayır & Hayır & Hayır \\
-\bottomrule
-\end{tabular}
-\end{table}
+% \begin{frame}{Rakip Karşılaştırması -- 6 Rakip}
+% \bglogo
+% \scriptsize
+% \begin{table}
+% \centering
+% \begin{tabular}{p{2.4cm}p{2.0cm}p{1.6cm}p{1.6cm}p{1.5cm}p{1.5cm}p{1.5cm}}
+% \toprule
+% \textbf{Kriter} & \textbf{QuatMark-EQCore} & \textbf{Digimarc} & \textbf{IMATAG} & \textbf{Verimatrix/Irdeto} & \textbf{MarkAny} & \textbf{Google SynthID} \\
+% \midrule
+% Gömme Dön. & EQ QR Ayrışımı & DCT/DWT & SVD & Spread-Spectrum & DCT/DWT & NN Enjeksiyon \\
+% Temsil Uzayı & 4-D EQ Matris & Reel (frekans) & Reel (sing.) & Reel & Reel/karm. & NN gizli uzay \\
+% Renk Kanalı & \textbf{Bütünleşik} & Ayrıştırmalı & Ayrıştırmalı & Ayrıştırmalı & Ayrıştırmalı & Sınırlı \\
+% Blok Seçimi & SHA-2 + kaotik & Statik & Kısmen adp. & Oturum anh. & Statik & Öğrenilmiş \\
+% Şifreleme & Kaotik+SHA-2+Arnold & AES & AES & Oturum krip. & DRM anh. & Kapalı \\
+% Kör Damgalama & \textbf{Evet} & Evet & Evet & Evet & Kısmi & Hayır \\
+% DL Saldırı Sav. & \textbf{Var} & Yok & Yok & Yok & Yok & Kapalı \\
+% Yerli/Milli & \textbf{Evet} & Hayır & Hayır & Hayır & Hayır & Hayır \\
+% \bottomrule
+% \end{tabular}
+% \end{table}
 
-\textbf{Belirgin farklılaşma:} Kanal-bütünleşik işleme + kamuya açık DL savunması + yerli teknoloji.
-\end{frame}
+% \textbf{Belirgin farklılaşma:} Kanal-bütünleşik işleme + kamuya açık DL savunması + yerli teknoloji.
+% \end{frame}
 
-\begin{frame}{QuatMark-Standart Çekirdek vs. EQCore}
-\bglogo
-\scriptsize
-\begin{table}
-\centering
-\begin{tabular}{p{4.5cm}p{4.5cm}p{4.5cm}}
-\toprule
-\textbf{Teknik Özellik} & \textbf{Yeni: QuatMark-EQCore} & \textbf{Mevcut: Standart Çekirdek} \\
-\midrule
-İşlem Alanı & EQ QR ayrışımı (dönüşüm uzayı) & Reel matris QR ayrışımı \\
-Renk Kanalı İşleme & Bütünleşik, senkronize & Bağımsız (kanal başına) \\
-Çalışma Uzayı & 4-boyutlu EQ cebiri & Reel sayı uzayı \\
-Damga Ön-İşleme: Kaotik Şifreleme & Var & Yok \\
-Damga Ön-İşleme: Arnold Karıştırma & Var & Yok \\
-Renk Korelasyonu Kaybı & Ortadan kaldırılmış & Mevcut \\
-Damga Asenkronizasyonu & Ortadan kaldırılmış & Mevcut \\
-Blok Seçimi & SHA-2 tabanlı (anahtar bağımlı) & numpy.random \\
-Güvenlik Katmanı Sayısı & \textbf{4 katman} ($p$+SHA-2+Arnold+kaotik) & Tek katman \\
-\bottomrule
-\end{tabular}
-\end{table}
-\end{frame}
+% \begin{frame}{QuatMark-Standart Çekirdek vs. EQCore}
+% \bglogo
+% \scriptsize
+% \begin{table}
+% \centering
+% \begin{tabular}{p{4.5cm}p{4.5cm}p{4.5cm}}
+% \toprule
+% \textbf{Teknik Özellik} & \textbf{Yeni: QuatMark-EQCore} & \textbf{Mevcut: Standart Çekirdek} \\
+% \midrule
+% İşlem Alanı & EQ QR ayrışımı (dönüşüm uzayı) & Reel matris QR ayrışımı \\
+% Renk Kanalı İşleme & Bütünleşik, senkronize & Bağımsız (kanal başına) \\
+% Çalışma Uzayı & 4-boyutlu EQ cebiri & Reel sayı uzayı \\
+% Damga Ön-İşleme: Kaotik Şifreleme & Var & Yok \\
+% Damga Ön-İşleme: Arnold Karıştırma & Var & Yok \\
+% Renk Korelasyonu Kaybı & Ortadan kaldırılmış & Mevcut \\
+% Damga Asenkronizasyonu & Ortadan kaldırılmış & Mevcut \\
+% Blok Seçimi & SHA-2 tabanlı (anahtar bağımlı) & numpy.random \\
+% Güvenlik Katmanı Sayısı & \textbf{4 katman} ($p$+SHA-2+Arnold+kaotik) & Tek katman \\
+% \bottomrule
+% \end{tabular}
+% \end{table}
+% \end{frame}
 
 % =====================================================================
 % Bölüm 5: Uygulama Alanları

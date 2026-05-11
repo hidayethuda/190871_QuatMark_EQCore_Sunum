@@ -1,5 +1,10 @@
 {
   "latex-workshop.latex.recipe.default": "pdflatex",
+  "latex-workshop.latex.autoBuild.run": "onSave",
+  "latex-workshop.view.pdf.viewer": "tab",
+  "latex-workshop.view.pdf.tab.editorGroup": "right",
+  "latex-workshop.view.pdf.internal.synctex.keybinding": "ctrl-click",
+  "latex-workshop.synctex.afterBuild.enabled": false,
   "latex-workshop.latex.recipes": [
     {
       "name": "pdflatex",
